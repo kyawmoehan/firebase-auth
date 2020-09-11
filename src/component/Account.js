@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import * as firebase from "firebase";
+
 import useUser from "../actions/useUser";
 
 const Account = () => {

@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <h1 className="title">Firebase Auth</h1>
       <Switch>
-        <Route path="/signin" component={SignIn} />
+        <Route path="/signin" component={SignIn} url={"/account"} />
         <Route path="/account" component={Account} />
       </Switch>
     </BrowserRouter>
