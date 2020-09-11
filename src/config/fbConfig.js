@@ -14,7 +14,7 @@ var firebaseConfig = {
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-firebase.auth().languageCode = "pt";
+firebase.auth().languageCode = "it";
 export const db = firebase.firestore();
 
 //Initialize Firebae Auth
